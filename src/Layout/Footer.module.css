@@ -1,0 +1,12 @@
+.footer {
+  background-color: #381059;
+  color: white;
+  height: 3rem;
+  font-size: 0.7rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer span {
+  display: block;
+  padding: 1rem 0;
+}

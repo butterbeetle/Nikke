@@ -2,13 +2,15 @@ import { Fragment } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
+import stlyes from "./Layout.module.css";
+
 const Layout = ({ children }) => {
   return (
-    <Fragment>
+    <>
       <Header />
-      <main>{children}</main>
+      <main className={stlyes["main"]}>{children}</main>
       <Footer />
-    </Fragment>
+    </>
   );
 };
 
