@@ -1,0 +1,18 @@
+.header {
+  background-color: #381059;
+  box-shadow: 0 2px 5px #501780;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 3rem;
+}
+.header ul {
+  display: flex;
+}
+.header li {
+  padding: 0.7rem 1rem;
+}
+.header li:hover {
+  background-color: #5b2480;
+}
